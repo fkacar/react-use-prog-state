@@ -1,0 +1,47 @@
+{
+  "name": "react-use-prog-state",
+  "version": "1.0.0",
+  "description": "A progressive React hook that expands useState features",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Fatih Kacar <info@fatihkacar.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fkacar/react-use-prog-state"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "redux",
+    "react",
+    "reducer",
+    "better",
+    "simple"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsdx build --tsconfig tsconfig.build.json --jsx react"
+  },
+  "dependencies": {
+    "@types/jest": "^28.1.6",
+    "@types/node": "^18.6.1",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "tsdx": "^0.14.1",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/eslint-parser": "^7.18.9",
+    "@babel/node": "^7.18.9",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0"
+  }
+}
