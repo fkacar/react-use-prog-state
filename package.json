@@ -1,6 +1,6 @@
 {
   "name": "react-use-prog-state",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A progressive React hook that expands useState features",
   "main": "dist/index.js",
   "module": "dist/index.js",
